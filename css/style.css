@@ -1,0 +1,48 @@
+.reveal {
+  /* font-family: "Firacode Nerd Font", sans-serif; */
+  /* font-family: "Menlo", sans-serif; */
+  font-size: 28px;
+}
+
+.reveal pre code {
+  display: block;
+  padding: 5px;
+  overflow: auto;
+  max-height: 400px;
+  word-wrap: normal;
+  background: #fff;
+  color: gray;
+}
+
+.left {
+  margin: 10px 0 15px 20px;
+  text-align: center;
+  float: left;
+  z-index: -10;
+  width: 48%;
+  font-size: 0.85em;
+  line-height: 1.5;
+}
+
+.right {
+  margin: 10px 0 15px 0;
+  float: right;
+  text-align: center;
+  z-index: -10;
+  width: 48%;
+  font-size: 0.85em;
+  line-height: 1.5;
+}
+
+.footnote {
+  font-size: 0.45em;
+  color: darkgray;
+  text-align: left;
+  margin-top: 20px;
+  line-height: 1.4;
+  /* position: absolute;
+  bottom: -500px; */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
